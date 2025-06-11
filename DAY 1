@@ -1,0 +1,538 @@
+ 1. What is the primary purpose of image processing in Python? 
+ A To convert images into video
+ B To analyze, modify, and extract information from images
+ C To only display images
+ D To compress images for storage
+ Answer: B To analyze, modify, and extract information from images
+ Explanation: Image processing involves analyzing, modifying, and extracting useful information
+ from images, not just displaying or compressing them .
+
+ 
+ 2. Which Python library is most commonly used for computer vision and image
+ processing?
+ A Pandas
+ B OpenCV
+ C TensorFlow
+ D Matplotlib
+ Answer: B OpenCV
+ Explanation: OpenCV is widely used for computer vision and image processing tasks due to its
+ extensive set of optimized algorithms .
+
+
+ 
+ 3. What does converting an image to grayscale do?
+ A Increases image size
+ B Reduces the image to a single channel (black and white)
+ C Adds more color channels
+ D Blurs the image
+ Answer: B Reduces the image to a single channel (black and white)
+ Explanation: Grayscale conversion simplifies the image to shades of gray, using only one
+ channel instead of three RGB .
+
+
+
+4. Which function in OpenCV is used to read an image from a file?
+ A cv2.imshow()
+ B cv2.imread()
+ C cv2.write()
+ D cv2.load()
+ Answer: B cv2.imread()
+ Explanation:
+ cv2.imread()
+ is used to read an image from a file in OpenCV
+
+
+ 5. What is the main purpose of thresholding in image processing?
+ A To increase image brightness
+ B To convert a grayscale image to a binary image
+ C To rotate the image
+ D To resize the image
+ .
+ Answer: B To convert a grayscale image to a binary image
+ Explanation: Thresholding is used to segment images by converting grayscale images into
+ binary (black and white) images based on a threshold value .
+
+
+ 6. Which of the following is NOT a type of image?
+ A RGB
+ B Grayscale
+ C Binary
+ D Matrix
+ Answer: D Matrix
+ Explanation: While images are stored as matrices, "Matrix" itself is not a type of image; RGB,
+ grayscale, and binary are common image types .
+
+
+ 7. What is the role of the NumPy library in image processing?
+ A To draw graphs
+ B To manipulate numerical arrays (pixels)
+ C To connect to databases
+ D To create user interfaces
+ Answer: B To manipulate numerical arrays (pixels)
+ Explanation: NumPy is used to manipulate numerical arrays, which represent image pixels
+
+
+ .
+8. Which scikit-image function is used for edge detection?
+ A sobel()
+ B gaussian()
+ C resize()
+ D rotate()
+ Answer: A sobel()
+ Explanation: The 
+sobel()
+ function in scikit-image is used for edge detection .
+
+
+ 9. What is the purpose of Gaussian smoothing?
+ A To detect edges
+ B To reduce noise in an image
+ C To increase sharpness
+ D To invert colors
+ Answer: B To reduce noise in an image
+ Explanation: Gaussian smoothing is used to reduce noise by blurring the image .
+
+
+ 10. Which OpenCV function is used to convert an image from BGR to RGB color
+ space?
+ A cv2.cvtColor()
+ B cv2.convert()
+ C cv2.colorize()
+ D cv2.transform()
+ Answer: A cv2.cvtColor()
+ Explanation:
+ cv2.cvtColor()
+ is used for color space conversions in OpenCV .
+
+
+ 11. What does histogram equalization do?
+ A Increases image contrast
+ B Blurs the image
+ C Reduces image size
+ D Removes color channels
+ Answer: A Increases image contrast
+ Explanation: Histogram equalization improves image contrast by spreading out pixel intensity
+ values .
+
+
+12. Which Python library is used for displaying images?
+ A matplotlib
+ B OpenCV
+ C NumPy
+ D Both A and B
+ Answer: D Both A and B
+ Explanation: Both matplotlib (for plotting) and OpenCV (with 
+images
+ cv2.imshow()
+ ) can display
+
+
+ 13. What is the main use of morphological operations in image processing?
+ A To change image size
+ B To enhance or suppress features based on shape
+ C To add noise
+ D To convert to grayscale
+ Answer: B To enhance or suppress features based on shape
+ Explanation: Morphological operations manipulate image features based on shape, such as
+ erosion and dilation .
+
+
+ 14. Which function in scikit-image is used for adaptive histogram equalization?
+ A equalize_hist()
+ B equalize_adapthist()
+ C rescale()
+ D rotate()
+ Answer: B equalize_adapthist()
+ Explanation:
+ equalize_adapthist()
+ is used for adaptive histogram equalization in scikit
+ image .
+
+
+ 15. What is the purpose of image segmentation?
+ A To compress images
+ B To partition an image into meaningful regions
+ C To rotate images
+ D To add text to images
+ Answer: B To partition an image into meaningful regions
+ Explanation: Image segmentation divides an image into regions for easier analysis
+
+
+# Python Data Structures - 15 MCQs with Answers and Explanations
+
+## Question 1
+Which of the following data structures is ordered and mutable in Python?
+
+A) Set  
+B) Tuple  
+C) List  
+D) Dictionary (Python < 3.7)
+
+**Answer: C) List**
+
+**Explanation:** Lists in Python are ordered (maintain insertion order) and mutable (can be modified after creation). 
+Sets are unordered and mutable, tuples are ordered but immutable, and dictionaries in Python versions before 3.7 were unordered
+(though they became ordered from Python 3.7+).
+
+## Question 2
+What will be the output of the following code?
+```python
+my_dict = {'a': 1, 'b': 2}
+print(my_dict.get('c', 'Not Found'))
+```
+
+A) KeyError  
+B) None  
+C) Not Found  
+D) 0
+
+**Answer: C) Not Found**
+
+**Explanation:** The `get()` method returns the value for the specified key if it exists, 
+otherwise it returns the default value provided as the second argument. Since 'c' doesn't exist in the dictionary, it returns 'Not Found'.
+
+
+## Question 3
+Which operation has O(1) average time complexity for adding an element?
+
+A) Appending to a list  
+B) Inserting at the beginning of a list  
+C) Adding to a set  
+D) Both A and C
+
+**Answer: D) Both A and C**
+
+**Explanation:** Appending to a list using `append()` has O(1) amortized time complexity. 
+Adding an element to a set also has O(1) average time complexity due to hash table implementation. 
+Inserting at the beginning of a list requires shifting all elements, making it O(n).
+
+
+## Question 4
+What is the main difference between a tuple and a list in Python?
+
+A) Tuples can store different data types, lists cannot  
+B) Tuples are immutable, lists are mutable  
+C) Tuples are faster for all operations  
+D) Lists use more memory than tuples
+
+**Answer: B) Tuples are immutable, lists are mutable**
+**Explanation:** The key difference is mutability. Tuples cannot be changed after creation (immutable), while lists can be modified (mutable). Both can store different data types, and while tuples are generally faster for some operations due to immutability, this isn't true for all operations.
+
+
+## Question 5
+What will be the result of the following code?
+```python
+my_set = {1, 2, 3, 2, 1}
+print(len(my_set))
+```
+
+A) 5  
+B) 3  
+C) 2  
+D) Error
+
+**Answer: B) 3**
+
+**Explanation:** Sets automatically remove duplicate elements.
+Even though we provided 5 elements (1, 2, 3, 2, 1), the set will only contain unique values: {1, 2, 3}, so the length is 3.
+
+
+## Question 6
+Which of the following is the correct way to create an empty dictionary in Python?
+
+A) `dict = {}`  
+B) `dict = dict()`  
+C) Both A and B  
+D) `dict = []`
+
+**Answer: C) Both A and B**
+
+**Explanation:** Both `{}` and `dict()` create empty dictionaries in Python.
+Option D creates an empty list, not a dictionary. 
+Note: using `dict` as a variable name would shadow the built-in `dict` type, which should be avoided.
+
+
+## Question 7
+What is the time complexity of checking if an element exists in a Python set?
+
+A) O(1)  
+B) O(log n)  
+C) O(n)  
+D) O(n²)
+
+**Answer: A) O(1)**
+
+**Explanation:** Sets in Python are implemented using hash tables,
+which provide O(1) average time complexity for membership testing. 
+This makes sets very efficient for checking if an element exists.
+
+
+## Question 8
+What will be the output of this code?
+```python
+my_list = [1, 2, 3]
+my_list.extend([4, 5])
+print(my_list)
+```
+
+A) [1, 2, 3, [4, 5]]  
+B) [1, 2, 3, 4, 5]  
+C) [[1, 2, 3], [4, 5]]  
+D) Error
+
+**Answer: B) [1, 2, 3, 4, 5]**
+**Explanation:** The `extend()` method adds all elements from the iterable (in this case, another list) to the end of the original list. 
+This is different from `append()`, which would add the entire list as a single element.
+
+
+## Question 9
+Which data structure would be most appropriate for implementing a stack?
+
+A) Dictionary  
+B) Set  
+C) List  
+D) Tuple
+
+**Answer: C) List**
+
+**Explanation:** Lists are ideal for implementing stacks because they support efficient append and pop operations at the end (both O(1)). 
+You can use `append()` to push elements and `pop()` to remove the last element, following the LIFO (Last In, First Out) principle.
+
+
+## Question 10
+What happens when you try to access a dictionary key that doesn't exist?
+
+A) Returns None  
+B) Returns 0  
+C) Raises KeyError  
+D) Creates the key with None value
+
+**Answer: C) Raises KeyError**
+
+**Explanation:** Accessing a non-existent key in a dictionary using square bracket notation (e.g., `dict['key']`) raises a `KeyError` exception. 
+To avoid this, you can use the `get()` method or check if the key exists using the `in` operator.
+
+
+## Question 11
+Which of the following statements about Python dictionaries is FALSE?
+
+A) Keys must be immutable  
+B) Values can be of any data type  
+C) Dictionaries maintain insertion order (Python 3.7+)  
+D) Multiple keys can have the same value
+
+**Answer: A) Keys must be immutable**
+
+**Explanation:** While dictionary keys must be hashable (which often means immutable types like strings, numbers, tuples), 
+the statement is not entirely accurate.
+The correct requirement is that keys must be hashable, not necessarily immutable. For example, a tuple containing mutable objects wouldn't be hashable.
+
+
+## Question 12
+What is the result of the following code?
+```python
+numbers = (1, 2, 3, 4, 5)
+print(numbers[1:4])
+```
+
+A) (1, 2, 3, 4)  
+B) (2, 3, 4)  
+C) [2, 3, 4]  
+D) (2, 3, 4, 5)
+
+**Answer: B) (2, 3, 4)**
+
+**Explanation:** Slicing a tuple returns a new tuple. The slice `[1:4]` includes elements from index 1 up to (but not including) index 4. 
+So it returns elements at indices 1, 2, and 3, which are (2, 3, 4).
+
+
+## Question 13
+Which method would you use to remove and return an arbitrary element from a set?
+
+A) remove()  
+B) discard()  
+C) pop()  
+D) delete()
+
+**Answer: C) pop()**
+
+**Explanation:** The `pop()` method removes and returns an arbitrary element from a set.
+The `remove()` method removes a specific element but raises KeyError if not found.
+`discard()` removes a specific element but doesn't raise an error if not found. There's no `delete()` method for sets.
+
+
+## Question 14
+What will be the output of this code?
+```python
+my_list = [1, 2, 3, 4, 5]
+print(my_list[-2:])
+```
+
+A) [4, 5]  
+B) [3, 4]  
+C) [2, 3]  
+D) [5]
+
+**Answer: A) [4, 5]**
+
+**Explanation:** Negative indexing starts from the end of the list.
+`my_list[-2:]` means "from the second-to-last element to the end". The second-to-last element is 4 (index -2), so it returns [4, 5].
+
+
+## Question 15
+Which of the following operations is NOT supported by Python sets?
+
+A) Union  
+B) Intersection  
+C) Indexing  
+D) Difference
+
+**Answer: C) Indexing**
+
+**Explanation:** Sets are unordered collections, so they don't support indexing or slicing operations. 
+You cannot access elements using `set[0]` or similar syntax.
+Sets do support mathematical operations like union (`|` or `union()`), intersection (`&` or `intersection()`), and difference (`-` or `difference()`).
+
+
+
+ 1. What is the main goal of text processing in Python?
+ A To convert images to text
+ B To prepare and analyze raw text data
+ C To only display text
+ D To compress text files
+ Answer: B To prepare and analyze raw text data
+ Explanation: Text processing involves cleaning, transforming, and analyzing raw text to make it
+ suitable for further use or analysis .
+
+
+ 2. Which Python library is commonly used for natural language processing?
+ A NumPy
+ B NLTK
+ C OpenCV
+ D Pandas
+ Answer: B NLTK
+ Explanation: The Natural Language Toolkit NLTK) is widely used for NLP tasks in Python
+
+
+ 3. What does tokenization do in text processing?
+ A Removes stop words
+ B Splits text into words or sentences
+ C Converts text to lowercase
+ D Removes punctuation
+ Answer: B Splits text into words or sentences
+ Explanation: Tokenization breaks text into smaller units (tokens) like words or sentences for
+ analysis .
+
+
+ .
+4. Which of the following is a common step in text preprocessing?
+ A Converting text to uppercase
+ B Removing punctuation
+ C Adding more punctuation
+ D Inserting random characters
+ Answer: B Removing punctuation
+ Explanation: Removing punctuation helps standardize text and reduce noise
+
+
+ 5. What is the purpose of stop word removal?
+ A To increase text length
+ B To remove common but uninformative words
+ C To add more words
+ D To convert text to lowercase
+ Answer: B To remove common but uninformative words
+ Explanation: Stop words like "the" and "is" are often removed to focus on meaningful
+ content .
+
+
+ 6. What is lemmatization?
+ A Removing punctuation
+ B Reducing words to their base or dictionary form
+ C Splitting text into sentences
+ D Converting text to lowercase
+ Answer: B Reducing words to their base or dictionary form
+ Explanation: Lemmatization converts words to their root form based on meaning .
+
+
+ 7. Which Python library is NOT typically used for text processing?
+ A NLTK
+ B spaCy
+ C scikit-learn
+ D OpenCV
+ Answer: D OpenCV
+ Explanation: OpenCV is used for image processing, not text processing .
+ 
+ 
+8. What does converting text to lowercase do in preprocessing?
+ A Increases text length
+ B Standardizes text for analysis
+ C Removes punctuation
+ D Adds stop words
+ Answer: B Standardizes text for analysis
+ Explanation: Lowercasing ensures that words are treated the same regardless of case
+
+
+ 9. What is the purpose of stemming?
+ A To remove punctuation
+ B To remove stop words
+ C To reduce words to their root form by removing suffixes
+ D To convert text to uppercase
+ Answer: C To reduce words to their root form by removing suffixes
+ Explanation: Stemming is a faster but less accurate method for word normalization .
+
+
+ 10. Which function is used to remove punctuation in Python?
+ A str.lower()
+ B string.punctuation and str.translate()
+ C str.split()
+ D str.upper()
+
+ Answer: B
+ string.punctuation
+ and str.translate()
+ Explanation: These are used to remove punctuation from strings
+
+
+ 11. What is the purpose of regular expressions (regex) in text processing?
+ A To add noise to text
+ B To find and manipulate patterns in text
+ C To convert text to lowercase
+ D To remove stop words
+ Answer: B To find and manipulate patterns in text
+ Explanation: Regex is used for pattern matching and text manipulation
+
+
+ 12. What is the output of count vectorization?
+ A A list of stop words
+ B A numerical matrix of word counts
+ C A list of sentences
+ D A string with removed punctuation
+Answer: B A numerical matrix of word counts
+ Explanation: Count vectorization transforms text into a matrix of word frequencies .
+
+
+ 13. Which of the following is NOT a benefit of text processing?
+ A Improves data quality
+ B Enhances text analytics
+ C Facilitates image compression
+ D Prepares text for machine learning
+ Answer: C Facilitates image compression
+ Explanation: Text processing does not relate to image compression .
+
+
+ 14. What is TFIDF vectorization used for?
+ A To count the number of words
+ B To measure the importance of words in a document relative to a corpus
+ C To remove stop words
+ D To convert text to lowercase
+ Answer: B To measure the importance of words in a document relative to a corpus
+ Explanation: TFIDF considers both word frequency and rarity across documents .
+
+
+ 15. Which Python module is used for simple string parameterization?
+A string.Template
+B re
+C ntlk
+D spaCy
+
+Answer: A) string.Template
+Explanation: string.Template is used for simple string parameterization
