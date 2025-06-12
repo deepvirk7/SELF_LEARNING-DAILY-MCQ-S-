@@ -1,0 +1,517 @@
+1. Which of the following is a command-line interface (CLI)?
+a) Windows Explorer
+b) Terminal
+c) Google Chrome
+d) Microsoft Word
+Answer: b) Terminal
+
+2. What does the command ls do in Unix/Linux?
+a) Lists files and directories
+b) Changes directory
+c) Copies files
+d) Deletes files
+Answer: a) Lists files and directories
+
+3.Which command is used to change the current working directory in Unix/Linux?
+a) pwd
+b) cd
+c) ls
+d) mkdir
+Answer: b) cd
+
+4.What does the command pwd display?
+a) List of users
+b) Present working directory
+c) Network status
+d) File contents
+Answer: b) Present working directory
+
+5.How do you display the current date in Unix/Linux?
+a) date
+b) time
+c) today
+d) now
+Answer: a) date
+
+6.Which command is used to create a new directory in Unix/Linux?
+a) touch
+b) mkdir
+c) newdir
+d) dir
+Answer: b) mkdir
+
+7.What is the command used to display the contents of a file in Unix/Linux?
+a) ls
+b) cat
+c) echo
+d) pwd
+Answer: b) cat
+
+8.Which command is used to copy files in Unix/Linux?
+a) cp
+b) mv
+c) rm
+d) copy
+Answer: a) cp
+
+9.What does the command rm do in Unix/Linux?
+a) Removes files or directories
+b) Renames files
+c) Moves files
+d) Lists files
+Answer: a) Removes files or directories
+
+10.Which command is used to move or rename files in Unix/Linux?
+a) cp
+b) mv
+c) rm
+d) ls
+Answer: b) mv
+
+11.Which command is used to count lines, words, and characters in a file in Unix/Linux?
+a) cat
+b) wc
+c) count
+d) du
+Answer: b) wc
+
+12.What is the purpose of the pipe (|) operator in Unix/Linux?
+a) Combines two files
+b) Links commands together
+c) Filters directories
+d) Lists all processes
+Answer: b) Links commands together
+
+13.Which command is used to find out the disk usage of a specific directory in Unix/Linux?
+a) mem
+b) df
+c) du
+d) ls
+Answer: c) du
+
+14.Which command is used to change file permissions in Unix/Linux?
+a) chmod
+b) chown
+c) chgrp
+d) perm
+Answer: a) chmod
+
+15.What is the command to display manual pages for commands in Unix/Linux?
+a) help
+b) info
+c) man
+d) doc
+Answer: c) man
+
+Which of the following is a command-line interface (CLI)?
+
+a) Windows Explorer
+
+b) Terminal
+
+c) Google Chrome
+
+d) Microsoft Word
+Answer: b) Terminal
+
+What does the command ls do in Unix/Linux?
+
+a) Lists files and directories
+
+b) Changes directory
+
+c) Copies files
+
+d) Deletes files
+Answer: a) Lists files and directories
+
+Which command is used to change the current working directory in Unix/Linux?
+
+a) pwd
+
+b) cd
+
+c) ls
+
+d) mkdir
+Answer: b) cd
+
+What does the command pwd display?
+
+a) List of users
+
+b) Present working directory
+
+c) Network status
+
+d) File contents
+Answer: b) Present working directory
+
+How do you display the current date in Unix/Linux?
+
+a) date
+
+b) time
+
+c) today
+
+d) now
+Answer: a) date
+
+Which command is used to create a new directory in Unix/Linux?
+
+a) touch
+
+b) mkdir
+
+c) newdir
+
+d) dir
+Answer: b) mkdir
+
+What is the command used to display the contents of a file in Unix/Linux?
+
+a) ls
+
+b) cat
+
+c) echo
+
+d) pwd
+Answer: b) cat
+
+Which command is used to copy files in Unix/Linux?
+
+a) cp
+
+b) mv
+
+c) rm
+
+d) copy
+Answer: a) cp
+
+What does the command rm do in Unix/Linux?
+
+a) Removes files or directories
+
+b) Renames files
+
+c) Moves files
+
+d) Lists files
+Answer: a) Removes files or directories
+
+Which command is used to move or rename files in Unix/Linux?
+
+a) cp
+
+b) mv
+
+c) rm
+
+d) ls
+Answer: b) mv
+
+Which command is used to count lines, words, and characters in a file in Unix/Linux?
+
+a) cat
+
+b) wc
+
+c) count
+
+d) du
+Answer: b) wc
+
+What is the purpose of the pipe (|) operator in Unix/Linux?
+
+a) Combines two files
+
+b) Links commands together
+
+c) Filters directories
+
+d) Lists all processes
+Answer: b) Links commands together
+
+Which command is used to find out the disk usage of a specific directory in Unix/Linux?
+
+a) mem
+
+b) df
+
+c) du
+
+d) ls
+Answer: c) du
+
+Which command is used to change file permissions in Unix/Linux?
+
+a) chmod
+
+b) chown
+
+c) chgrp
+
+d) perm
+Answer: a) chmod
+
+What is the command to display manual pages for commands in Unix/Linux?
+
+a) help
+
+b) info
+
+c) man
+
+d) doc
+Answer: c) man
+
+File Handling MCQs (20 Questions)
+16.Which function is used to open a file in Python?
+a) open()
+b) file()
+c) fopen()
+d) start()
+Answer: a) open()
+
+17.Which method is used to close a file in Python?
+a) end()
+b) close()
+c) finish()
+d) exit()
+Answer: b) close()
+
+18.Which file mode opens a file for both reading and writing in Python?
+a) 'r'
+b) 'w'
+c) 'r+'
+d) 'a'
+Answer: c) 'r+'
+
+19.Which method reads all lines of a file into a list in Python?
+a) read()
+b) readline()
+c) readlines()
+d) getlines()
+Answer: c) readlines()
+
+20.Which function is used to write data to a file in Python?
+a) put()
+b) output()
+c) write()
+d) append()
+Answer: c) write()
+
+21.What does the 'w' mode do when opening a file in Python?
+a) Opens for reading
+b) Opens for writing (truncates file)
+c) Opens for appending
+d) Opens for binary writing
+Answer: b) Opens for writing (truncates file)
+
+22.Which method is used to move the file pointer to a specific position in Python?
+a) move()
+b) seek()
+c) tell()
+d) position()
+Answer: b) seek()
+
+23.Which method tells the current position of the file pointer in Python?
+a) seek()
+b) tell()
+c) position()
+d) current()
+Answer: b) tell()
+
+24.What is the correct syntax for opening a file in C?
+a) FILE *fopen(const char *filename, const char *mode)
+b) FILE *open(const char *filename, const char *mode)
+c) FILE fopen(const char *filename, const char *mode)
+d) open(const char *filename, const char *mode)
+Answer: a) FILE *fopen(const char *filename, const char *mode)
+
+25.What does the mode 'w+' do in C file handling?
+a) Opens for writing and reading, discards previous content
+b) Opens for writing only
+c) Opens for reading only
+d) Opens for appending
+Answer: a) Opens for writing and reading, discards previous content
+
+26.Which header file is required for file I/O operations in C++?
+a) <ifstream>
+b) <ostream>
+c) <fstream>
+d) <iostream>
+Answer: c) <fstream>
+
+27.Which stream class is used only for writing files in C++?
+a) ifstream
+b) ofstream
+c) fstream
+d) iostream
+Answer: b) ofstream
+
+28.Which stream class is used for both reading and writing files in C++?
+a) ifstream
+b) ofstream
+c) fstream
+d) iostream
+Answer: c) fstream
+
+29.Which is NOT a valid file opening mode in C++?
+a) ios::trunc
+b) ios::binary
+c) ios::in
+d) ios::ate
+Answer: a) ios::trunc 
+
+30.Which method is used to write a list of strings to a file in Python?
+a) writelines()
+b) write()
+c) writestring()
+d) putlines()
+Answer: a) writelines()
+
+31.Which file extension is typically used for word documents?
+a) .txt
+b) .doc
+c) .csv
+d) .bin
+Answer: b) .doc
+
+32.What does the 'a' mode do when opening a file in Python?
+a) Opens for reading
+b) Opens for writing (truncates file)
+c) Opens for appending
+d) Opens for binary reading
+Answer: c) Opens for appending
+
+33.Which method is used to read a single line from a file in Python?
+a) read()
+b) readline()
+c) readlines()
+d) getline()
+Answer: b) readline()
+
+34.Which keyword is used to ensure a file is closed after its block of code is executed in Python?
+a) with
+b) close
+c) end
+d) ensure
+Answer: a) with
+
+35.Which of the following is NOT a limitation of a file system?
+a) Data redundancy
+b) Data inconsistency
+c) Data dependence
+d) Storing space
+Answer: d) Storing space (Storing space is a requirement, not a limitation)
+
+36.What is the correct syntax to create a tuple in Python?
+A. tuple = [1, 2, 3]
+B. tuple = (1, 2, 3)
+C. tuple = {1, 2, 3}
+D. tuple = <1, 2, 3>
+Answer: B
+
+37.Which of the following is an immutable data type in Python?
+A. List
+B. Dictionary
+C. Tuple
+D. Set
+Answer: C
+
+38.What will be the output of len((1, 2, 3, 4))?
+A. 3
+B. 4
+C. 5
+D. Error
+Answer: B
+
+39.How do you access the first element in a tuple t = (10, 20, 30)?
+A. t[1]
+B. t[0]
+C. t.first()
+D. t.get(0)
+Answer: B
+
+40.Which method is used to count the number of times a value appears in a tuple?
+A. sum()
+B. find()
+C. count()
+D. index()
+Answer: C
+
+41.What will be the output of t = (1, 2, 3); t[0] = 5?
+A. (5, 2, 3)
+B. (1, 2, 3)
+C. Error
+D. (1, 5, 3)
+Answer: C
+
+42.Which of the following will create a tuple with one element (value: 5)?
+A. (5)
+B. (5,)
+C. tuple(5)
+D. {5}
+Answer: B
+
+43.What is the correct syntax to create a dictionary?
+A. d = (1: 'a', 2: 'b')
+B. d = [1: 'a', 2: 'b']
+C. d = {1: 'a', 2: 'b'}
+D. d = <1: 'a', 2: 'b'>
+Answer: C
+
+44.What will be the output of d = {'a': 1, 'b': 2}; print(d['a'])?
+A. 'a'
+B. 1
+C. 2
+D. Error
+Answer: B
+
+45.Which method is used to get all keys from a dictionary?
+A. keys()
+B. getkeys()
+C. keyset()
+D. all_keys()
+Answer: A
+
+46.Which of the following is NOT allowed in a dictionary key?
+A. Integer
+B. String
+C. List
+D. Tuple
+Answer: C
+
+47.What will be the output of this code?
+d = {'x': 10}; d['x'] += 2; print(d['x'])
+A. 10
+B. 12
+C. Error
+D. None
+Answer: B
+
+48.What does d.get('z', 0) return if key 'z' is not in the dictionary d?
+A. Error
+B. 'z'
+C. 0
+D. None
+Answer: C
+
+49.Which method removes a key-value pair from a dictionary?
+A. delete()
+B. pop()
+C. remove()
+D. discard()
+Answer: B
+
+50.How do you iterate over key-value pairs in a dictionary d?
+A. for k, v in d:
+B. for k, v in d.items():
+C. for k, v in d.keys():
+D. for k, v in d.values():
+Answer: B
+
