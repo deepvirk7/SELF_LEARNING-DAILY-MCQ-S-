@@ -1,0 +1,373 @@
+1. Which Python library is primarily used for data manipulation and analysis, particularly with DataFrame structures?
+a) NumPy
+b) Pandas
+c) Matplotlib
+d) SciPy
+Answer: b) Pandas
+Explanation: Pandas is widely used for data manipulation and analysis, especially with tabular data structures like DataFrames[1][2].
+
+2. Which method is used to read a CSV file in Pandas?
+a) read_csv()
+b) read_excel()
+c) read_json()
+d) read_sql()
+Answer: a) read_csv()
+Explanation: read_csv() is the standard method to import CSV files into a Pandas DataFrame.
+
+3. What does the dropna() method do in Pandas?
+a) Removes missing values
+b) Fills missing values
+c) Adds new columns
+d) Sorts the DataFrame
+Answer: a) Removes missing values
+Explanation: dropna() drops rows or columns with missing values.
+
+4. How do you select a single column named 'age' from a DataFrame df?
+a) df.age
+b) df['age']
+c) df.column('age')
+d) Both a and b
+Answer: d) Both a and b
+Explanation: Both df.age and df['age'] are valid ways to select a column.
+
+5. Which method is used to group data in Pandas?
+a) groupby()
+b) group()
+c) aggregate()
+d) summarize()
+Answer: a) groupby()
+Explanation: groupby() groups data based on specified columns.
+
+6. What does the merge() function do in Pandas?
+a) Joins two DataFrames
+b) Sorts the DataFrame
+c) Deletes rows
+d) Aggregates data
+Answer: a) Joins two DataFrames
+Explanation: merge() is used to join DataFrames based on common columns.
+
+7. How do you rename a column 'old_name' to 'new_name' in a DataFrame?
+a) df.rename(columns={'old_name':'new_name'})
+b) df.rename('old_name', 'new_name')
+c) df.set_column('old_name', 'new_name')
+d) df.change_name('old_name', 'new_name')
+Answer: a) df.rename(columns={'old_name':'new_name'})
+Explanation: rename() with the columns argument is used to rename columns.
+
+8. What is the output of df.head()?
+a) Last 5 rows
+b) First 5 rows
+c) Random 5 rows
+d) Summary statistics
+Answer: b) First 5 rows
+Explanation: head() returns the first 5 rows by default.
+
+9. Which method is used to sort a DataFrame by a column?
+a) sort()
+b) sort_values()
+c) orderby()
+d) arrange()
+Answer: b) sort_values()
+Explanation: sort_values() sorts a DataFrame by specified columns.
+
+10. What does the fillna() method do?
+a) Removes missing values
+b) Fills missing values
+c) Drops columns
+d) Sorts the DataFrame
+Answer: b) Fills missing values
+Explanation: fillna() fills missing values with specified data.
+
+11. How do you get the number of rows and columns in a DataFrame df?
+a) df.size
+b) df.shape
+c) df.info()
+d) df.columns
+Answer: b) df.shape
+Explanation: shape returns a tuple (rows, columns).
+
+12. Which method is used to apply a function to each element of a DataFrame?
+a) map()
+b) apply()
+c) for loop
+d) iterate()
+Answer: b) apply()
+Explanation: apply() applies a function along an axis of the DataFrame.
+
+13. What does the describe() method return?
+a) A summary of the DataFrame
+b) The first 5 rows
+c) The last 5 rows
+d) The column names
+Answer: a) A summary of the DataFrame
+Explanation: describe() provides summary statistics.
+
+14. How do you select rows where column 'score' > 80?
+a) df[df['score'] > 80]
+b) df.select(df['score'] > 80)
+c) df.filter(df['score'] > 80)
+d) df.where(df['score'] > 80)
+Answer: a) df[df['score'] > 80]
+Explanation: Boolean indexing is used to filter rows.
+
+15. What does the reset_index() method do?
+a) Resets the DataFrame index
+b) Deletes the index
+c) Sorts the index
+d) Changes column names
+Answer: a) Resets the DataFrame index
+Explanation: reset_index() resets the index to the default integer index.
+ 
+15 MCQs on Data Visualization using Python
+1. Which library is commonly used for creating plots in Python?
+a) Pandas
+b) Matplotlib
+c) NumPy
+d) SciPy
+Answer: b) Matplotlib
+Explanation: Matplotlib is the foundational plotting library in Python.
+
+2. How do you create a line plot in Matplotlib?
+a) plt.line()
+b) plt.plot()
+c) plt.draw()
+d) plt.show()
+Answer: b) plt.plot()
+Explanation: plt.plot() creates a line plot.
+
+3. Which function is used to display a plot?
+a) plt.show()
+b) plt.display()
+c) plt.draw()
+d) plt.view()
+Answer: a) plt.show()
+Explanation: plt.show() displays the plot.
+
+4. What does plt.xlabel() do?
+a) Sets the x-axis label
+b) Sets the y-axis label
+c) Sets the title
+d) Sets the legend
+Answer: a) Sets the x-axis label
+Explanation: plt.xlabel() sets the label for the x-axis.
+
+5. Which library is built on top of Matplotlib and provides a high-level interface for drawing attractive statistical graphics?
+a) Seaborn
+b) Plotly
+c) Bokeh
+d) Pandas
+Answer: a) Seaborn
+Explanation: Seaborn provides a high-level interface for statistical graphics.
+
+6. How do you create a bar plot in Seaborn?
+a) sns.barplot()
+b) sns.lineplot()
+c) sns.histplot()
+d) sns.scatterplot()
+Answer: a) sns.barplot()
+Explanation: sns.barplot() creates a bar plot.
+
+7. What does plt.title() do?
+a) Sets the plot title
+b) Sets the axis labels
+c) Sets the legend
+d) Sets the grid
+Answer: a) Sets the plot title
+Explanation: plt.title() sets the title of the plot.
+
+8. Which function is used to create a histogram in Matplotlib?
+a) plt.hist()
+b) plt.bar()
+c) plt.plot()
+d) plt.scatter()
+Answer: a) plt.hist()
+Explanation: plt.hist() creates a histogram.
+
+9. How do you add a legend to a plot?
+a) plt.legend()
+b) plt.add_legend()
+c) plt.show_legend()
+d) plt.set_legend()
+Answer: a) plt.legend()
+Explanation: plt.legend() adds a legend to the plot.
+
+10. Which library allows for interactive visualizations?
+a) Plotly
+b) Matplotlib
+c) Seaborn
+d) Pandas
+Answer: a) Plotly
+Explanation: Plotly provides interactive visualizations.
+
+11. What does sns.scatterplot() do?
+a) Creates a scatter plot
+b) Creates a line plot
+c) Creates a bar plot
+d) Creates a histogram
+Answer: a) Creates a scatter plot
+Explanation: sns.scatterplot() creates a scatter plot.
+
+12. How do you set the y-axis label?
+a) plt.ylabel()
+b) plt.xlabel()
+c) plt.ylab()
+d) plt.xlab()
+Answer: a) plt.ylabel()
+Explanation: plt.ylabel() sets the y-axis label.
+
+13. Which function is used to create a box plot in Matplotlib?
+a) plt.boxplot()
+b) plt.bar()
+c) plt.plot()
+d) plt.hist()
+Answer: a) plt.boxplot()
+Explanation: plt.boxplot() creates a box plot.
+
+14. How do you set the figure size in Matplotlib?
+a) plt.figure(figsize=(width, height))
+b) plt.size(width, height)
+c) plt.set_size(width, height)
+d) plt.figsize(width, height)
+Answer: a) plt.figure(figsize=(width, height))
+Explanation: plt.figure(figsize=(width, height)) sets the figure size.
+
+15. What does plt.savefig() do?
+a) Saves the plot to a file
+b) Shows the plot
+c) Closes the plot
+d) Clears the plot
+Answer: a) Saves the plot to a file
+Explanation: plt.savefig() saves the current plot to a file.
+ 
+15 MCQs on Exploratory Data Analysis (EDA) using Python
+1. What is the primary goal of EDA?
+a) To build predictive models
+b) To summarize main characteristics of data
+c) To deploy models
+d) To clean data
+Answer: b) To summarize main characteristics of data
+Explanation: EDA aims to summarize the main characteristics of the dataset.
+
+2. Which method provides summary statistics of a DataFrame?
+a) df.info()
+b) df.describe()
+c) df.head()
+d) df.shape
+Answer: b) df.describe()
+Explanation: describe() provides summary statistics.
+
+3. What does df.info() display?
+a) Data types and non-null counts
+b) First 5 rows
+c) Last 5 rows
+d) Column names only
+Answer: a) Data types and non-null counts
+Explanation: info() shows data types, non-null counts, and memory usage.
+
+4. Which plot is commonly used to identify outliers?
+a) Box plot
+b) Line plot
+c) Bar plot
+d) Pie chart
+Answer: a) Box plot
+Explanation: Box plots help identify outliers.
+
+5. How do you check for missing values in a DataFrame?
+a) df.isnull().sum()
+b) df.missing()
+c) df.na()
+d) df.findna()
+Answer: a) df.isnull().sum()
+Explanation: isnull().sum() counts missing values per column.
+
+6. What does a correlation matrix show?
+a) Relationships between variables
+b) Missing values
+c) Data types
+d) Row counts
+Answer: a) Relationships between variables
+Explanation: Correlation matrix shows relationships between numeric variables.
+
+7. Which function is used to create a pair plot in Seaborn?
+a) sns.pairplot()
+b) sns.boxplot()
+c) sns.lineplot()
+d) sns.barplot()
+Answer: a) sns.pairplot()
+Explanation: pairplot() creates a grid of scatter plots for numeric columns.
+
+8. What is the purpose of a histogram in EDA?
+a) To show the distribution of a variable
+b) To show relationships between variables
+c) To show missing values
+d) To show data types
+Answer: a) To show the distribution of a variable
+Explanation: Histograms display the distribution of a variable.
+
+9. How do you display unique values in a column?
+a) df['column'].unique()
+b) df['column'].distinct()
+c) df['column'].values()
+d) df['column'].show()
+Answer: a) df['column'].unique()
+Explanation: unique() returns unique values in a column.
+
+10. Which method is used to check for duplicates in a DataFrame?
+a) df.duplicated()
+b) df.repeated()
+c) df.unique()
+d) df.distinct()
+Answer: a) df.duplicated()
+Explanation: duplicated() identifies duplicate rows.
+
+11. What is the purpose of a scatter plot in EDA?
+a) To show relationships between two variables
+b) To show the distribution of a variable
+c) To show missing values
+d) To show data types
+Answer: a) To show relationships between two variables
+Explanation: Scatter plots show relationships between two numeric variables.
+
+12. Which function is used to get the number of unique values in a column?
+a) df['column'].nunique()
+b) df['column'].unique().count()
+c) df['column'].count()
+d) df['column'].size()
+Answer: a) df['column'].nunique()
+Explanation: nunique() returns the number of unique values.
+
+13. How do you visualize the distribution of a categorical variable?
+a) Bar plot
+b) Line plot
+c) Scatter plot
+d) Box plot
+Answer: a) Bar plot
+Explanation: Bar plots are used for categorical variables.
+
+14. What does df.corr() return?
+a) Correlation matrix
+b) Covariance matrix
+c) Missing values
+d) Data types
+Answer: a) Correlation matrix
+Explanation: corr() returns the correlation matrix.
+
+15. Which of the following is NOT a common EDA task?
+a) Data cleaning
+b) Data visualization
+c) Model training
+d) Data summarization
+Answer: c) Model training
+Explanation: Model training is not part of EDA; it is a modeling step.
+ 
+10 Prompts for Exploratory Data Analysis using Python
+1.	Load a dataset and display the first few rows.
+2.	Check for missing values in the dataset and display the count per column.
+3.	Generate summary statistics for numeric columns.
+4.	Visualize the distribution of a numeric variable using a histogram.
+5.	Create a box plot to identify outliers in a numeric column.
+6.	Plot a correlation matrix to explore relationships between numeric variables.
+7.	Count and plot the frequency of unique values in a categorical column.
+8.	Check for duplicates in the dataset and remove them if found.
+9.	Visualize the relationship between two numeric variables using a scatter plot.
+10.	Use a pair plot to explore relationships between multiple numeric variables.
