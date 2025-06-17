@@ -1,0 +1,178 @@
+
+
+1. **What is the primary goal of machine learning?**  
+   a) To manually program computers  
+   b) To enable systems to learn from data  
+   c) To simulate human intelligence  
+   d) To enhance computer hardware speed  
+   **Answer:** b) To enable systems to learn from data[6].
+
+2. **Which type of data is used in supervised learning?**  
+   a) Unlabeled  
+   b) Labeled  
+   c) Both  
+   d) Neither  
+   **Answer:** b) Labeled[6].
+
+3. **Which of the following is NOT a common machine learning task?**  
+   a) Classification  
+   b) Regression  
+   c) Sorting  
+   d) Clustering  
+   **Answer:** c) Sorting[6].
+
+4. **Which algorithm is commonly used for supervised learning?**  
+   a) K-Means Clustering  
+   b) Linear Regression  
+   c) Principal Component Analysis  
+   d) DBSCAN  
+   **Answer:** b) Linear Regression[6].
+
+5. **What is a key difference between supervised and unsupervised learning?**  
+   a) Supervised learning uses labeled data  
+   b) Unsupervised learning requires labeled data  
+   c) Supervised learning is faster  
+   d) Unsupervised learning predicts labels  
+   **Answer:** a) Supervised learning uses labeled data[6].
+
+6. **What does 'overfitting' refer to in machine learning?**  
+   a) When a model performs well on training data but poorly on new data  
+   b) When a model performs well on both training and test data  
+   c) When a model is too simple  
+   d) When a model fails to fit training data  
+   **Answer:** a) When a model performs well on training data but poorly on new data[4].
+
+7. **Which of the following is a clustering algorithm?**  
+   a) Decision Tree  
+   b) K-Means  
+   c) SVM  
+   d) Linear Regression  
+   **Answer:** b) K-Means[3].
+
+8. **Which machine learning algorithm is associated with the idea of bagging?**  
+   a) Decision Tree  
+   b) Random Forest  
+   c) SVM  
+   d) Naive Bayes  
+   **Answer:** b) Random Forest[3][5].
+
+9. **Which of the following is a generative model?**  
+   a) Naive Bayes  
+   b) Linear Regression  
+   c) Logistic Regression  
+   d) SVM  
+   **Answer:** a) Naive Bayes[3].
+
+10. **Which evaluation metric is commonly used for classification tasks with class imbalance?**  
+    a) Accuracy  
+    b) F1-score  
+    c) MSE  
+    d) R-squared  
+    **Answer:** b) F1-score[3].
+
+11. **Which of the following is not a supervised learning algorithm?**  
+    a) K-Means  
+    b) Decision Tree  
+    c) SVM  
+    d) Naive Bayes  
+    **Answer:** a) K-Means[1].
+
+12. **Which algorithm is used when the output is numerical?**  
+    a) Naive Bayes  
+    b) Decision Tree  
+    c) Linear Regression  
+    d) Logistic Regression  
+    **Answer:** c) Linear Regression[1].
+
+13. **Which of the following statements is true about ensemble learning?**  
+    a) It is an unsupervised learning algorithm  
+    b) More random algorithms can be used to produce a stronger ensemble  
+    c) It is a supervised learning algorithm  
+    d) Both b and c  
+    **Answer:** d) Both b and c (but most strictly, c is correct—ensemble learning is supervised)[1].
+
+14. **Which of the following is an example of stacking in ensemble methods?**  
+    a) Voting Classifier  
+    b) Random Forest  
+    c) AdaBoost  
+    d) Bagged Decision Trees  
+    **Answer:** a) Voting Classifier[3].
+
+15. **Which of the following is a successful application of machine learning?**  
+    a) Learning to recognize spoken words  
+    b) Learning to classify astronomical structures  
+    c) Learning to drive autonomous vehicles  
+    d) All of the above  
+    **Answer:** d) All of the above[3].
+
+16. **Which of the following is not machine learning?**  
+    a) Rule-based inference  
+    b) Artificial intelligence  
+    c) Both a and b  
+    d) Neither a nor b  
+    **Answer:** a) Rule-based inference[3].
+
+17. **Which of the following is a disadvantage of decision trees?**  
+    a) Robust to outliers  
+    b) Prone to overfitting  
+    c) Easy to interpret  
+    d) All of the above  
+    **Answer:** b) Prone to overfitting[5].
+
+18. **How do you handle missing or corrupted data in a dataset?**  
+    a) Drop missing rows or columns  
+    b) Replace missing values with mean/median/mode  
+    c) Assign a unique category to missing values  
+    d) All of the above  
+    **Answer:** d) All of the above[5].
+
+19. **What is the purpose of performing cross-validation?**  
+    a) To assess the predictive performance of the models  
+    b) To judge how the trained model performs outside the sample on test data  
+    c) Both a and b  
+    d) None of the above  
+    **Answer:** c) Both a and b[5].
+
+20. **Which of the following is an example of feature extraction?**  
+    a) Constructing bag of words vector from an email  
+    b) Applying PCA to high-dimensional data  
+    c) Removing stopwords in a sentence  
+    d) All of the above  
+    **Answer:** d) All of the above[5].
+
+21. **What is a sentence parser typically used for?**  
+    a) To parse sentences to check if they are UTF-8 compliant  
+    b) To parse sentences to derive their most likely syntax tree structures  
+    c) To parse sentences to assign POS tags to all tokens  
+    d) To check if sentences can be parsed into meaningful tokens  
+    **Answer:** b) To parse sentences to derive their most likely syntax tree structures[5].
+
+22. **What does the term "underfitting" mean in ML?**  
+    a) The model isn't able to capture the dynamics shown by the training set  
+    b) The model has excessive capacity and fits training data too well  
+    c) The model has high variance  
+    d) The model is biased  
+    **Answer:** a) The model isn't able to capture the dynamics shown by the training set.
+
+23. **Which technique is used to reduce the dimensionality of data while preserving as much information as possible?**  
+    a) Clustering  
+    b) Feature extraction  
+    c) Feature selection  
+    d) Both b and c  
+    **Answer:** d) Both b and c (but most strictly, b is correct for preserving information, though both are used for dimensionality reduction)[4].
+
+24. **Which type of machine learning algorithm aims to mimic the process of human learning by trial and error?**  
+    a) Supervised learning  
+    b) Unsupervised learning  
+    c) Reinforcement learning  
+    d) Deep learning  
+    **Answer:** c) Reinforcement learning[4].
+
+25. **Which of the following models is trained with data only in a single batch?**  
+    a) Batch learning  
+    b) Offline learning  
+    c) Both a and b  
+    d) Neither a nor b  
+    **Answer:** c) Both a and b[3].
+
+---
