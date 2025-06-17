@@ -1,0 +1,174 @@
+**1. What is machine learning?**  
+a) Writing explicit rules for computers to follow  
+b) The autonomous acquisition of knowledge through computer programs  
+c) Manual programming for every task  
+d) Only statistical analysis of data  
+
+**Answer:** b) The autonomous acquisition of knowledge through computer programs  
+**Explanation:** Machine learning enables computers to learn patterns from data without being explicitly programmed for every task[1][2].
+
+---
+
+**2. Which of the following is NOT a type of machine learning?**  
+a) Supervised learning  
+b) Unsupervised learning  
+c) Reinforcement learning  
+d) Static learning  
+
+**Answer:** d) Static learning  
+**Explanation:** The main types are supervised, unsupervised, and reinforcement learning. Static learning is not a recognized type[1][2].
+
+---
+
+**3. Which Python library is commonly used for machine learning?**  
+a) NumPy  
+b) scikit-learn  
+c) Matplotlib  
+d) All of the above  
+
+**Answer:** d) All of the above  
+**Explanation:** NumPy, scikit-learn, and Matplotlib are all commonly used in machine learning projects[3].
+
+---
+
+**4. Which function from scikit-learn is used to split a dataset into training and test sets?**  
+a) train_test_split()  
+b) split_data()  
+c) dataset_split()  
+d) data_train_test()  
+
+**Answer:** a) train_test_split()  
+**Explanation:** `train_test_split()` is the standard function for splitting datasets in scikit-learn[4].
+
+---
+
+**5. Which of the following is an example of supervised learning?**  
+a) K-Means Clustering  
+b) Linear Regression  
+c) Principal Component Analysis  
+d) DBSCAN  
+
+**Answer:** b) Linear Regression  
+**Explanation:** Linear regression is a supervised learning algorithm as it uses labeled data for training[4][1].
+
+---
+
+**6. What type of learning is K-Means Clustering an example of?**  
+a) Supervised Learning  
+b) Unsupervised Learning  
+c) Reinforcement Learning  
+d) Semi-supervised Learning  
+
+**Answer:** b) Unsupervised Learning  
+**Explanation:** K-Means is an unsupervised algorithm as it does not require labeled data[4][1].
+
+---
+
+**7. Which type of machine learning involves learning from labeled data?**  
+a) Unsupervised Learning  
+b) Supervised Learning  
+c) Reinforcement Learning  
+d) Semi-supervised Learning  
+
+**Answer:** b) Supervised Learning  
+**Explanation:** Supervised learning uses labeled data for training[4].
+
+---
+
+**8. What is the main goal of machine learning?**  
+a) Enable computers to learn from data  
+b) To automate manual tasks  
+c) To make computers intelligent  
+d) To generate self-aware machines  
+
+**Answer:** a) Enable computers to learn from data  
+**Explanation:** The primary aim is to allow computers to learn patterns from data automatically[5].
+
+---
+
+**9. Which Python library is used for data manipulation and analysis?**  
+a) scikit-learn  
+b) pandas  
+c) NumPy  
+d) Matplotlib  
+
+**Answer:** b) pandas  
+**Explanation:** pandas is specifically designed for data manipulation and analysis[3].
+
+---
+
+**10. What is feature scaling in machine learning?**  
+a) Removing features from the dataset  
+b) Converting features to the same scale  
+c) Adding new features  
+d) Selecting features based on importance  
+
+**Answer:** b) Converting features to the same scale  
+**Explanation:** Feature scaling ensures all features have similar scales, which helps models converge faster[3].
+
+--
+
+**11. Given the following data points: [5,[6], what is the mean?**  
+a) 10  
+b) 15  
+c) 20  
+d) 25  
+
+**Answer:** b) 15  
+**Explanation:** Mean = (5+10+15+20+25)/5 = 75/5 = 15.
+
+---
+
+**12. If you have two points in 2D space: A(1,2) and B(4,6), what is the Euclidean distance between them?**  
+a) 3  
+b) 5  
+c) 7  
+d) 9  
+
+**Answer:** b) 5  
+**Explanation:**  
+$$
+\text{Distance} = \sqrt{(4-1)^2 + (6-2)^2} = \sqrt{9 + 16} = \sqrt{25} = 5
+$$
+[3]
+
+---
+
+**13. After min-max scaling (normalization) of the value 10 in a dataset with min=5 and max=25, what is the scaled value?**  
+a) 0.25  
+b) 0.5  
+c) 0.75  
+d) 1.0  
+
+**Answer:** a) 0.25  
+**Explanation:**  
+$$
+\text{Scaled value} = \frac{10-5}{25-5} = \frac{5}{20} = 0.25
+$$
+[3]
+
+---
+
+**14. You have a dataset with features [2, 4, 6, 8,[6]. What is the standard deviation if the mean is 6? (Hint: $$\sqrt{8}$$)**  
+a) 2.0  
+b) 2.8  
+c) 3.2  
+d) 3.6  
+
+**Answer:** b) 2.8 (rounded from $$\sqrt{8} \approx 2.83$$)  
+**Explanation:**  
+Variance = $$[(2-6)^2 + (4-6)^2 + (6-6)^2 + (8-6)^2 + (10-6)^2]/5 = (16+4+0+4+16)/5 = 40/5 = 8$$  
+Standard deviation = $$\sqrt{8} \approx 2.83$$ ≈ 2.8.
+
+---
+
+**15. You use `train_test_split()` to split your dataset into 80% training and 20% test. If your dataset has 100 samples, how many samples will be in the training set?**  
+a) 20  
+b) 50  
+c) 80  
+d) 100  
+
+**Answer:** c) 80  
+**Explanation:** 80% of 100 is 80 samples in the training set[3][4].
+
+--- 
