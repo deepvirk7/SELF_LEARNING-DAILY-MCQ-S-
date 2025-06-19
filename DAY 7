@@ -1,0 +1,368 @@
+### 🔢 **Regression (15 Questions)**
+
+1. **Which of the following is NOT a type of regression?**
+   A) Linear Regression
+   B) Logistic Regression
+   C) Polynomial Regression
+   D) K-Means Regression
+   **Answer: D**
+
+2. **In linear regression, which metric is commonly used to evaluate model performance?**
+   A) Entropy
+   B) Mean Squared Error (MSE)
+   C) Silhouette Score
+   D) Log Loss
+   **Answer: B**
+
+3. **What does the R-squared value indicate in a regression model?**
+   A) Classification accuracy
+   B) Proportion of variance explained
+   C) Number of features
+   D) Regularization strength
+   **Answer: B**
+
+4. **Which assumption is not required for linear regression?**
+   A) Linearity
+   B) Normal distribution of residuals
+   C) Multicollinearity
+   D) Homoscedasticity
+   **Answer: C**
+
+5. **Ridge regression adds which type of penalty to the cost function?**
+   A) L1
+   B) L2
+   C) L0
+   D) No penalty
+   **Answer: B**
+
+6. **What kind of regression is suitable for predicting a binary outcome?**
+   A) Linear
+   B) Logistic
+   C) Lasso
+   D) Polynomial
+   **Answer: B**
+
+7. **Which technique helps in dealing with multicollinearity?**
+   A) Standardization
+   B) Ridge Regression
+   C) Normalization
+   D) Linear Transformation
+   **Answer: B**
+
+8. **Polynomial regression is a special case of:**
+   A) Logistic regression
+   B) Non-linear regression
+   C) Linear regression
+   D) SVM
+   **Answer: C**
+
+9. **In Lasso regression, what happens when lambda increases?**
+   A) Coefficients increase
+   B) Coefficients shrink
+   C) Accuracy improves
+   D) Residuals increase
+   **Answer: B**
+
+10. **Which error metric penalizes larger errors more than smaller ones?**
+    A) MAE
+    B) RMSE
+    C) MAPE
+    D) Accuracy
+    **Answer: B**
+
+11. **Which regression technique is best for feature selection?**
+    A) Ridge
+    B) Lasso
+    C) Linear
+    D) Polynomial
+    **Answer: B**
+
+12. **What does heteroscedasticity mean in regression?**
+    A) Constant variance
+    B) Non-constant variance
+    C) Multicollinearity
+    D) Normal distribution
+    **Answer: B**
+
+13. **Gradient Descent is used in regression to:**
+    A) Split the data
+    B) Calculate accuracy
+    C) Minimize the cost function
+    D) Create decision trees
+    **Answer: C**
+
+14. **Which library in Python is commonly used for linear regression?**
+    A) Seaborn
+    B) Matplotlib
+    C) Scikit-learn
+    D) BeautifulSoup
+    **Answer: C**
+
+15. **What is the output of a linear regression model?**
+    A) Class probabilities
+    B) Cluster labels
+    C) Continuous values
+    D) Tree structures
+    **Answer: C**
+
+---
+
+### 🔍 **Classification (10 Questions)**
+
+16. **Which algorithm is NOT used for classification?**
+    A) Decision Trees
+    B) Naive Bayes
+    C) K-Nearest Neighbors
+    D) K-Means
+    **Answer: D**
+
+17. **What does a confusion matrix evaluate?**
+    A) Clusters
+    B) Regression scores
+    C) Classification performance
+    D) Data variance
+    **Answer: C**
+
+18. **In binary classification, ROC curve plots:**
+    A) Precision vs Recall
+    B) True Positive Rate vs False Positive Rate
+    C) Accuracy vs Loss
+    D) F1 Score vs Recall
+    **Answer: B**
+
+19. **Which metric is best when classes are imbalanced?**
+    A) Accuracy
+    B) F1 Score
+    C) R-squared
+    D) Mean Squared Error
+    **Answer: B**
+
+20. **What is the range of the sigmoid function used in logistic regression?**
+    A) -1 to 1
+    B) 0 to 1
+    C) 0 to ∞
+    D) -∞ to ∞
+    **Answer: B**
+
+21. **Naive Bayes classifier assumes features are:**
+    A) Correlated
+    B) Dependent
+    C) Independent
+    D) Irrelevant
+    **Answer: C**
+
+22. **K-Nearest Neighbors is a:**
+    A) Lazy learner
+    B) Eager learner
+    C) Parametric model
+    D) Linear model
+    **Answer: A**
+
+23. **Which of the following is a linear classifier?**
+    A) Decision Tree
+    B) Logistic Regression
+    C) KNN
+    D) Random Forest
+    **Answer: B**
+
+24. **Precision is defined as:**
+    A) TP / (TP + FN)
+    B) TP / (TP + FP)
+    C) TP / (FP + FN)
+    D) TP / Total
+    **Answer: B**
+
+25. **Which algorithm is best for text classification?**
+    A) K-Means
+    B) Naive Bayes
+    C) PCA
+    D) KNN
+    **Answer: B**
+
+---
+
+### 📊 **Clustering (10 Questions)**
+
+26. **K-Means is a type of:**
+    A) Supervised Learning
+    B) Unsupervised Learning
+    C) Reinforcement Learning
+    D) Semi-supervised Learning
+    **Answer: B**
+
+27. **What does K represent in K-means?**
+    A) Number of features
+    B) Number of observations
+    C) Number of clusters
+    D) Number of labels
+    **Answer: C**
+
+28. **The Elbow method is used to find:**
+    A) Optimal decision boundaries
+    B) Optimal number of clusters
+    C) Maximum accuracy
+    D) Minimum variance
+    **Answer: B**
+
+29. **Which distance metric is commonly used in K-means?**
+    A) Euclidean
+    B) Manhattan
+    C) Mahalanobis
+    D) Cosine
+    **Answer: A**
+
+30. **DBSCAN is based on:**
+    A) Probabilities
+    B) Centroids
+    C) Density
+    D) Regression
+    **Answer: C**
+
+31. **Silhouette score measures:**
+    A) Prediction accuracy
+    B) Cluster quality
+    C) Regression error
+    D) Number of outliers
+    **Answer: B**
+
+32. **Hierarchical clustering does not require:**
+    A) Predefined number of clusters
+    B) Dendrogram
+    C) Linkage method
+    D) Distance matrix
+    **Answer: A**
+
+33. **In K-means, centroids are:**
+    A) Actual data points
+    B) Randomly selected classes
+    C) Mean of cluster points
+    D) Outliers
+    **Answer: C**
+
+34. **A major limitation of K-means is:**
+    A) High accuracy
+    B) Speed
+    C) Requires knowing K
+    D) Handles noise well
+    **Answer: C**
+
+35. **Which algorithm handles noise and outliers well?**
+    A) K-means
+    B) DBSCAN
+    C) Linear Regression
+    D) Logistic Regression
+    **Answer: B**
+
+---
+
+### 📈 **Linear Models (15 Questions)**
+
+36. **A linear model assumes:**
+    A) Non-linear relationship
+    B) Linear relationship between inputs and outputs
+    C) Clustering in data
+    D) Irregular residuals
+    **Answer: B**
+
+37. **Which function is minimized in linear regression?**
+    A) Entropy
+    B) Log loss
+    C) MSE
+    D) Silhouette Score
+    **Answer: C**
+
+38. **Which of the following is a linear model?**
+    A) Decision Tree
+    B) Logistic Regression
+    C) SVM with RBF kernel
+    D) Random Forest
+    **Answer: B**
+
+39. **Which Python module offers `LinearRegression`?**
+    A) numpy
+    B) pandas
+    C) sklearn
+    D) scipy
+    **Answer: C**
+
+40. **The slope in a linear model represents:**
+    A) Intercept
+    B) Residual
+    C) Rate of change
+    D) Error
+    **Answer: C**
+
+41. **Which regularization technique can eliminate features?**
+    A) Ridge
+    B) Lasso
+    C) ElasticNet
+    D) Logistic
+    **Answer: B**
+
+42. **Which is NOT a characteristic of linear models?**
+    A) Interpretability
+    B) Fast training
+    C) Handles non-linear boundaries
+    D) Requires less computation
+    **Answer: C**
+
+
+43. **Which of the following adds both L1 and L2 penalties?**
+    A) Ridge
+    B) Lasso
+    C) ElasticNet
+    D) Logistic
+    **Answer: C**
+
+44. **Linear models are sensitive to:**
+    A) Outliers
+    B) Scaling
+    C) Multicollinearity
+    D) All of the above
+    **Answer: D**
+
+45. **Which parameter in `LinearRegression()` fits the intercept?**
+    A) `normalize`
+    B) `fit_intercept`
+    C) `copy_X`
+    D) `solver`
+    **Answer: B**
+
+46. **Which condition implies a poor linear model fit?**
+    A) High R-squared
+    B) Low MSE
+    C) Residuals with patterns
+    D) Residuals with zero mean
+    **Answer: C**
+
+47. **Which plot is useful to validate linearity assumption?**
+    A) ROC
+    B) Residual plot
+    C) Confusion matrix
+    D) Dendrogram
+    **Answer: B**
+
+48. **Linear regression is used for:**
+    A) Binary classification
+    B) Finding clusters
+    C) Predicting continuous output
+    D) Reducing dimensions
+    **Answer: C**
+
+49. **Which term in the linear model denotes bias?**
+    A) Coefficient
+    B) Weight
+    C) Intercept
+    D) Output
+    **Answer: C**
+
+50. **Which algorithm can be used for both regression and classification?**
+    A) Decision Tree
+    B) K-Means
+    C) DBSCAN
+    D) PCA
+    **Answer: A**
+
+---
+
+
