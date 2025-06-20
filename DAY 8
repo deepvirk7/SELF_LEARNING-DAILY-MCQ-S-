@@ -1,0 +1,181 @@
+### **1. Which of the following techniques is commonly used to reduce variance in machine learning models?**
+
+A. Lasso Regression
+B. Bagging
+C. Ridge Regression
+D. Gradient Clipping
+
+**Answer:** B. **Bagging**
+**Explanation:** Bagging (Bootstrap Aggregating) helps reduce variance by training multiple models on different subsets of the data and averaging the results.
+
+---
+
+### **2. What is the primary purpose of hyperparameter tuning?**
+
+A. To reduce overfitting
+B. To optimize model performance
+C. To reduce data dimensionality
+D. To increase dataset size
+
+**Answer:** B. **To optimize model performance**
+**Explanation:** Hyperparameter tuning finds the best combination of model parameters that yield the highest predictive performance.
+
+---
+
+### **3. Which regularization technique can drive some feature coefficients to zero?**
+
+A. Ridge
+B. L1
+C. Dropout
+D. L2
+
+**Answer:** B. **L1**
+**Explanation:** L1 regularization (Lasso) performs feature selection by setting some coefficients to exactly zero.
+
+---
+
+### **4. In ensemble learning, what is the main advantage of using boosting?**
+
+A. Reduces model bias
+B. Increases training speed
+C. Reduces model interpretability
+D. Reduces the size of the dataset
+
+**Answer:** A. **Reduces model bias**
+**Explanation:** Boosting sequentially fits models to correct the errors of previous models, thus reducing bias.
+
+---
+
+### **5. What is a key benefit of using cross-validation for model evaluation?**
+
+A. Reduces model size
+B. Reduces training time
+C. Provides a more reliable estimate of model performance
+D. Guarantees higher accuracy
+
+**Answer:** C. **Provides a more reliable estimate of model performance**
+**Explanation:** Cross-validation gives a better assessment of a model’s generalization by evaluating it on multiple data folds.
+
+---
+
+### **6. Which technique can help improve model performance by modifying the training data distribution?**
+
+A. Feature scaling
+B. SMOTE
+C. L1 regularization
+D. Early stopping
+
+**Answer:** B. **SMOTE**
+**Explanation:** SMOTE (Synthetic Minority Over-sampling Technique) helps improve performance by balancing class distributions through synthetic examples.
+
+---
+
+### **7. Early stopping is a technique used to:**
+
+A. Increase dataset size
+B. Prevent overfitting during training
+C. Increase model complexity
+D. Improve model interpretability
+
+**Answer:** B. **Prevent overfitting during training**
+**Explanation:** Early stopping halts training when validation performance stops improving, avoiding overfitting.
+
+---
+
+### **8. Which metric is most appropriate for evaluating model performance on an imbalanced dataset?**
+
+A. Accuracy
+B. R-squared
+C. Precision-Recall AUC
+D. Mean Squared Error
+
+**Answer:** C. **Precision-Recall AUC**
+**Explanation:** In imbalanced datasets, PR AUC is more informative than accuracy as it focuses on the minority class performance.
+
+---
+
+### **9. What is the benefit of feature engineering?**
+
+A. Increases training time
+B. Decreases model interpretability
+C. Improves predictive performance
+D. Reduces test set accuracy
+
+**Answer:** C. **Improves predictive performance**
+**Explanation:** Feature engineering helps extract more informative features, improving the model's predictive power.
+
+---
+
+### **10. Dropout is a regularization technique mostly used in which type of models?**
+
+A. Decision Trees
+B. Support Vector Machines
+C. Neural Networks
+D. k-NN
+
+**Answer:** C. **Neural Networks**
+**Explanation:** Dropout randomly deactivates neurons during training, reducing overfitting in deep neural networks.
+
+---
+
+### **11. Which technique is best suited for reducing model variance without increasing bias significantly?**
+
+A. Increasing model depth
+B. Bagging
+C. L1 regularization
+D. Data augmentation
+
+**Answer:** B. **Bagging**
+**Explanation:** Bagging reduces variance by averaging predictions of multiple models trained on bootstrapped data.
+
+---
+
+### **12. Which advanced optimization technique can help escape local minima in deep learning?**
+
+A. Stochastic Gradient Descent
+B. Momentum
+C. Gradient Clipping
+D. Feature Selection
+
+**Answer:** B. **Momentum**
+**Explanation:** Momentum accelerates gradient descent in relevant directions and dampens oscillations, helping escape local minima.
+
+---
+
+### **13. Why is model ensembling effective in improving performance?**
+
+A. It simplifies the model
+B. It helps in dimensionality reduction
+C. It combines strengths of multiple models
+D. It avoids feature scaling
+
+**Answer:** C. **It combines strengths of multiple models**
+**Explanation:** Ensembling leverages different models to reduce variance and bias, improving generalization.
+
+---
+
+### **14. Learning rate scheduling is used to:**
+
+A. Increase batch size over time
+B. Change learning rate during training to improve convergence
+C. Increase dropout during training
+D. Prune the neural network
+
+**Answer:** B. **Change learning rate during training to improve convergence**
+**Explanation:** Learning rate scheduling adjusts the learning rate as training progresses, often improving convergence and final accuracy.
+
+---
+
+### **15. Which method helps in tuning multiple hyperparameters efficiently?**
+
+A. Grid Search
+B. PCA
+C. K-Means
+D. One-Hot Encoding
+
+**Answer:** A. **Grid Search**
+**Explanation:** Grid Search systematically explores combinations of hyperparameters to find the best-performing set.
+
+---
+
+Let me know if you want these exported to a quiz format or want a version for beginners or a specific model like XGBoost or transformers.
