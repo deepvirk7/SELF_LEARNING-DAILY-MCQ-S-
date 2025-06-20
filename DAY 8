@@ -176,6 +176,3 @@ D. One-Hot Encoding
 **Answer:** A. **Grid Search**
 **Explanation:** Grid Search systematically explores combinations of hyperparameters to find the best-performing set.
 
----
-
-Let me know if you want these exported to a quiz format or want a version for beginners or a specific model like XGBoost or transformers.
